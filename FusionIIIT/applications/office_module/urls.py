@@ -61,7 +61,10 @@ urlpatterns = [
     url(r'^officeOfDeanStudents/club_rejection', views.clubRejection),
     url(r'^officeOfDeanStudents/budgetAllot', views.budgetAllot),
     url(r'^officeOfDeanStudents/budgetAllotEdit', views.budgetAllotEdit),
+
+
     url(r'^officeOfDeanAcademics/$', views.officeOfDeanAcademics, name='officeOfDeanAcademics'),
+    
 
     url(r'^officeOfDeanAcademics/assistantship', views.assistantship, name='assistantship'),
     url(r'^officeOfDeanAcademics/formsubmit', views.formsubmit, name='formsubmit'),

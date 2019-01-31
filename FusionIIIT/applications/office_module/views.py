@@ -891,7 +891,7 @@ def officeOfDeanAcademics(request):
                 'thesis':thesis,
                 'meetingMinutes':minutes,
                 'final_minutes':final_minutes,
-                'all_desig':all_designation,}
+                'all_desig':all_designation}
 
     return render(request, "officeModule/officeOfDeanAcademics/officeOfDeanAcademics.html", context)
 
